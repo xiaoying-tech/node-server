@@ -8,7 +8,7 @@ const App = (0, express_1.default)();
 const PORT = 3000;
 App.use(express_1.default.static(__dirname + "/static"));
 App.get("/data", (req, res) => {
-    res.send("Hello World！！！!");
+    res.send("Hello World!");
 });
 App.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
