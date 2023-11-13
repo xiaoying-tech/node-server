@@ -16,6 +16,12 @@ app.post("/webhook", (req, res) => {
   res.status(200).send("webhook消息成功解析");
 });
 
+app.get("/sendData", (req, res) => {
+  console.log("接口测试");
+
+  res.status(200).send("hello webhook");
+});
+
 // 启动服务器
 app.listen(port, () => {
   console.log(`Webhook 服务 监听 at http://localhost:${port}`);
