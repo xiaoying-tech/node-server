@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 删除dist文件夹
-rm -r /dist
+rm -r dist
 echo "dist文件删除成功"
 
 
