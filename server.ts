@@ -5,10 +5,7 @@ import fs from "fs";
 const App: Application = express();
 const PORT = 3000;
 
-const staticPath = path.join(__dirname, "static");
 App.use(express.static(path.join(__dirname, "static")));
-
-console.log(staticPath);
 
 App.get("/data", (req: Request, res: Response): void => {
   res.send("Hello World!");
