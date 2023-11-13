@@ -16,6 +16,12 @@ app.post("/webhook", (req, res) => {
   res.status(200).send("webhook消息成功解析");
 });
 
+app.get("/data", (req, res) => {
+  console.log("接口测试");
+
+  res.status(200).send("hello webhook测试");
+});
+
 app.get("/sendData", (req, res) => {
   console.log("接口测试");
 
