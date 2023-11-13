@@ -19,7 +19,7 @@ app.post("/webhook", (req, res) => {
 app.get("/data", (req, res) => {
   console.log("接口测试");
 
-  res.status(200).send("hello webhook测试");
+  res.status(200).send("hello webhook测试fasdfasdf");
 });
 
 app.get("/sendData", (req, res) => {
