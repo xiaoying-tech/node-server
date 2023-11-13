@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = 10001; // 选择一个你喜欢的端口号
+const port = 3001; // 选择一个你喜欢的端口号
 
 app.use(bodyParser.json()); // 解析 JSON 请求体
 
