@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs";
 
 const App: Application = express();
-const PORT = 3000;
+const PORT = 3001;
 
 App.use(express.static(path.join(__dirname, "static")));
 
