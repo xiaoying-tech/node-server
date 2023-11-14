@@ -8,7 +8,7 @@ const App = (0, express_1.default)();
 const PORT = 3000;
 App.get("/api/data", (req, res) => {
     console.log(3333);
-    res.send("Hello World!");
+    res.send("Hello World! 11111");
 });
 App.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
