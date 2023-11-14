@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const { exec } = require("child_process");
 
 const app = express();
-const port = 1001; // 选择一个你喜欢的端口号
+const port = 1001; //
 
 app.use(bodyParser.json()); // 解析 JSON 请求体
 
@@ -36,12 +36,6 @@ app.post("/webhook", (req, res) => {
   res.status(200).send("webhook消息成功解析");
 });
 
-app.get("/data", (req, res) => {
-  console.log("接口测试");
-
-  res.status(200).send("hello webhook测试111");
-});
-
 app.get("/sendData", (req, res) => {
   console.log("接口测试");
 
@@ -50,5 +44,5 @@ app.get("/sendData", (req, res) => {
 
 // 启动服务器
 app.listen(port, () => {
-  console.log(`Webhook 服务 监听 at http://localhost:${port}`);
+  console.log(`Webhook 服务 监听 ${port}`);
 });

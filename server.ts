@@ -7,7 +7,7 @@ const PORT = 3000;
 
 App.use(express.static(path.join(__dirname, "static")));
 
-App.get("/data", (req: Request, res: Response): void => {
+App.get("/api/data", (req: Request, res: Response): void => {
   res.send("Hello World!");
 });
 
@@ -19,6 +19,6 @@ App.use("/", function (req, res) {
 
 App.listen(PORT, (): void => {
   console.log(`Server is running on port ${PORT}`);
-   console.log("测试一下，是否可以自动化拉代码！！！");
+  console.log("测试一下，是否可以自动化拉代码！！！");
 });
 
