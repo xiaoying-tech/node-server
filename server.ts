@@ -4,7 +4,7 @@ const App: Application = express();
 const PORT = 3000;
 
 App.get("/api/data", (req: Request, res: Response): void => {
-  console.log(1111);
+  console.log(3333);
   res.send("Hello World!");
 });
 
