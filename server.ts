@@ -19,6 +19,6 @@ App.use("/", function (req, res) {
 
 App.listen(PORT, (): void => {
   console.log(`Server is running on port ${PORT}`);
-   console.log(3333333);
+   console.log("测试一下，是否可以自动化拉代码！！！");
 });
 
