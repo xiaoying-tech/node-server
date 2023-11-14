@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 删除dist文件夹
-rm -r dist
-echo "dist文件删除成功"
+# rm -r dist
+# echo "dist文件删除成功"
 
 
 # 拉取最新代码
