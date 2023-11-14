@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // App.use(express.static(path.join(__dirname, "static")));
 
-App.get("/api/data", (req: Request, res: Response): void => {
+App.get("/api/home", (req: Request, res: Response): void => {
   console.log(1111);
   res.send("Hello World!");
 });
