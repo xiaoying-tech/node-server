@@ -18,5 +18,4 @@ App.get("/api/data", (req: Request, res: Response): void => {
 
 App.listen(PORT, (): void => {
   console.log(`Server is running on port ${PORT}`);
-  console.log("测试一下，是否可以自动化拉代码！！！");
 });
