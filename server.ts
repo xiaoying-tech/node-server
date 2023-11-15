@@ -5,6 +5,7 @@ const PORT = 3000;
 
 App.get("/api/data", (req: Request, res: Response): void => {
   console.log(3333);
+  console.log(111111);
   res.send("Hello World! 11111");
 });
 
