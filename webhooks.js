@@ -8,7 +8,7 @@ const port = 1001; //
 app.use(bodyParser.json()); // 解析 JSON 请求体
 
 // 指定要运行的脚本文件路径
-const scriptPath = "webhookCallback.sh";
+const scriptPath = "webhook.sh";
 const execCallback = () => {
   // 使用 exec 函数运行脚本
   exec(`bash ${scriptPath}`, (error, stdout, stderr) => {
